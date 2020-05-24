@@ -2,8 +2,9 @@
 # For Ubuntu and derivatives thereof
 # Linux ibus frontend + Cantonese schema installation script
 # Author
+#   - tanxpyox <tanxpyox@gmail.com>
 
-export RIMEDIR=~/.config/ibus/rime/
+RIMEDIR=~/.config/ibus/rime/
 
 echo Installing ibus-rime frontend ...
 sudo apt-get install curl git ibus-rime -y
