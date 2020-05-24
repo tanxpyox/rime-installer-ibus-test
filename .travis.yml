@@ -1,0 +1,4 @@
+script:
+  - chmod u+x ./*
+  - bash ibus-install.sh
+  
